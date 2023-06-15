@@ -44,6 +44,7 @@ header p{
     font-size: 150%;
     font-weight: 400;
 }
+
 .welcome{
     max-width: 100%;
     width: 1200px;
@@ -96,6 +97,17 @@ nav ul li a{
     font-size: 1.5rem;
     text-transform: lowercase;
     color: #222;
+    background-color:rgb(179, 199, 241) ;
+        /*border: solid 2px rebeccapurple;*/
+    border-color:mediumvioletred;
+    border-style: solid;
+    border-radius: 15px;
+    border-right-color: rgb(179, 199, 241);
+    border-left-color:rgb(179, 199, 241);
+    color: azure;
+    padding: 6px 6px;
+    margin: 5px 8px;
+
 }
 
 /* main content style */
@@ -118,9 +130,28 @@ section p{
 }
 section h2 img{
     position: absolute;
+    display: flex;
     top: 105%;
     left: 2%;
     width: 150px;
+}
+.galerie{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmin;
+    padding: 0 14px;
+}
+.galerie li{
+    list-style-type: none;
+    height: 250px;
+    flex-grow: 1;
+}
+.galerie img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .images{
